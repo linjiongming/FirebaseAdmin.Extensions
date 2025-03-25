@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>jm</Authors>
+    <Description>Inject GoogleCredential, FirebaseApp, FirebaseMessaging
+Extend Message.ToJson(), FirebaseMessaging.SendAsync(string json, CancellationToken cancellationToken)</Description>
+    <Copyright>Copyright 2025</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.3" />
+  </ItemGroup>
+
+</Project>
