@@ -5,7 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace Microsoft.Extensions.DependencyInjection;
 
-public static class ServiceCollectionExtensions
+public static class FirebaseAdminServiceCollectionExtensions
 {
     public static IServiceCollection AddGoogleCredential(this IServiceCollection services, [NotNull] string? credentialPath)
     {

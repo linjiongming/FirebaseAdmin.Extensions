@@ -6,14 +6,24 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>jm</Authors>
-    <Description>Inject GoogleCredential, FirebaseApp, FirebaseMessaging
-Extend Message.ToJson(), FirebaseMessaging.SendAsync(string json, CancellationToken cancellationToken)</Description>
+    <Description>Inject GoogleCredential, FirebaseApp, FirebaseMessaging</Description>
     <Copyright>Copyright 2025</Copyright>
+    <PackageProjectUrl>https://github.com/linjiongming/FirebaseAdmin.Extensions</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/linjiongming/FirebaseAdmin.Extensions</RepositoryUrl>
+    <PackageTags>Firebase;FirebaseAdmin;DI;Google;FCM;FirebaseMessaging</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FirebaseAdmin" Version="3.1.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
