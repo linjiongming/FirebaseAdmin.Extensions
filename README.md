@@ -32,7 +32,7 @@ var msg = new Message
 
 await firebaseMessaging.SendAsync(msg, cancellation);
 
-var json = msg.ToJson();
+//var json = msg.ToJson();
 
-await firebaseMessaging.SendAsync(json, cancellation);
+//await firebaseMessaging.SendAsync(json, cancellation);
 ```
